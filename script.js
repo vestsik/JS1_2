@@ -11,3 +11,9 @@ document.body.innerHTML = "prijem = " + prijemMoje
 
 const prijem = 12 * 174 * 15
 document.body.innerHTML += "<p>" + "prijem = " + prijem + "</p>"
+
+/* Kata Lencova - moje koucka */
+
+const prijem2 = prijem * 0.6 + prijem * 0.65 * 0.4
+document.body.innerHTML += "<p>" + "prijem se slevami = " + prijem2 + "</p>"
+
